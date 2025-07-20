@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "vueCompilerOptions": {
+    "globalTypesPath": "./node_modules/@vue/runtime-core"
+  },
+  "exclude": ["node_modules", "dist"]
+}
